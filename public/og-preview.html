@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      width: 1200px;
+      height: 630px;
+      background: #ffffff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #0a0a0a;
+      position: relative;
+      overflow: hidden;
+    }
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .icon-wrap {
+      width: 90px; height: 90px;
+      background: #e8590c;
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 24px;
+      box-shadow: 0 16px 48px rgba(232, 89, 12, 0.22);
+    }
+    .icon-wrap svg {
+      width: 48px; height: 48px;
+      stroke: #fff;
+      stroke-width: 1.6;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+    .brand {
+      font-size: 22px;
+      font-weight: 600;
+      color: #1a1a1a;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 68px;
+      font-weight: 800;
+      letter-spacing: -2.5px;
+      line-height: 1.08;
+      margin-bottom: 18px;
+      color: #0a0a0a;
+    }
+    p {
+      font-size: 26px;
+      color: #525252;
+      font-weight: 500;
+      max-width: 580px;
+      line-height: 1.4;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: #f5f5f5;
+      border: 1px solid #e5e5e5;
+      border-radius: 999px;
+      padding: 8px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #737373;
+      margin-top: 28px;
+    }
+    .badge svg {
+      width: 16px; height: 16px;
+      fill: #e8590c;
+    }
+    .domain {
+      position: absolute;
+      bottom: 32px;
+      font-size: 14px;
+      color: #a3a3a3;
+      font-weight: 500;
+      letter-spacing: 0.5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="icon-wrap">
+      <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+    </div>
+    <div class="brand">Cal AI</div>
+    <h1>Schedule smarter, not harder.</h1>
+    <p>AI-powered calendar that auto-schedules meetings and keeps everything in sync.</p>
+    <div class="badge">
+      <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.07.63-1.31-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85v2.74c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12c0-5.52-4.48-10-10-10z"/></svg>
+      Open Source Template
+    </div>
+  </div>
+
+  <div class="domain">app-landing-page-cyan.vercel.app</div>
+</body>
+</html>
