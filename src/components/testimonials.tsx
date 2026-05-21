@@ -1,4 +1,4 @@
-import { ScrollReveal } from "./scroll-reveal"
+
 
 const testimonials = [
   { name: "Alice Johnson", role: "Freelance Designer", text: "Cal AI has revolutionized how I manage my time. It's like having a personal assistant.", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&crop=face" },
@@ -33,21 +33,17 @@ export function Testimonials() {
     <section id="testimonials">
       <div className="sm:py-20 py-12 container px-6 sm:px-10 mx-auto">
         <div className="text-center space-y-4 pb-10 mx-auto">
-          <ScrollReveal>
-            <h2 className="text-sm text-primary text-balance font-mono font-semibold tracking-wider uppercase">
-              Testimonials
-            </h2>
-          </ScrollReveal>
-          <ScrollReveal delay={0.1}>
-            <h3 className="mx-0 mt-4 max-w-lg text-5xl text-balance font-bold sm:max-w-none sm:text-4xl md:text-5xl lg:text-6xl leading-[1.2] tracking-tighter text-foreground lowercase">
-              What our users say
-            </h3>
-          </ScrollReveal>
+          <h2 className="text-sm text-primary text-balance font-mono font-semibold tracking-wider uppercase">
+            Testimonials
+          </h2>
+          <h3 className="mx-0 mt-4 max-w-lg text-5xl text-balance font-bold sm:max-w-none sm:text-4xl md:text-5xl lg:text-6xl leading-[1.2] tracking-tighter text-foreground lowercase">
+            What our users say
+          </h3>
         </div>
 
         <div className="columns-1 sm:columns-2 lg:columns-3 xl:columns-4 gap-4 space-y-4 py-10">
-          {testimonials.map((t, i) => (
-            <ScrollReveal key={t.name} delay={i * 0.03} className="break-inside-avoid">
+          {testimonials.map((t) => (
+            <div key={t.name} className="break-inside-avoid">
               <div className="bg-muted/60 overflow-hidden rounded-3xl flex flex-col h-fit">
                 <div className="px-4 py-5 sm:p-6 flex-grow">
                   <div className="flex items-center mb-4">
@@ -66,7 +62,7 @@ export function Testimonials() {
                   <p className="text-foreground">{t.text}</p>
                 </div>
               </div>
-            </ScrollReveal>
+            </div>
           ))}
         </div>
       </div>

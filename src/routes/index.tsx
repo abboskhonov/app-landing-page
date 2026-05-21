@@ -18,11 +18,12 @@ function App() {
     <div className="min-h-svh">
       <Navbar />
       <Hero />
-      <Features />
+      
       <Experience />
       <FeatureHighlights />
       <Bento />
       <Benefits />
+      <Features />
       <Testimonials />
       <Pricing />
       <FAQ />

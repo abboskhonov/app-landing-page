@@ -25,7 +25,7 @@ export function Hero() {
 
   return (
     <section id="hero" ref={sectionRef} className="relative overflow-hidden min-h-[110vh]">
-      <div className="pt-12 sm:pt-16 md:pt-20 pb-0 w-full">
+      <div className="pt-20 sm:pt-28 md:pt-36 pb-0 w-full">
         <main className="mx-auto text-center relative px-4">
           {/* App Icon */}
           <motion.div
@@ -46,13 +46,13 @@ export function Hero() {
           {/* Headline */}
           <div className="max-w-4xl mx-auto px-2">
             <motion.h1
-              className="text-[2.6rem] sm:text-[3.2rem] md:text-[3.8rem] lg:text-[4.2rem] font-bold mb-4 tracking-tighter leading-[1.1]"
+              className="text-[2rem] sm:text-[2.4rem] md:text-[2.8rem] lg:text-[3.2rem] font-bold mb-4 tracking-tighter leading-[1.15]"
               initial="hidden"
               animate="visible"
               custom={0.1}
               variants={fadeUp}
             >
-              Smart scheduling powered by AI.
+              Schedule smarter, not harder.
             </motion.h1>
 
             <motion.p
@@ -62,8 +62,8 @@ export function Hero() {
               custom={0.2}
               variants={fadeUp}
             >
-              Cal AI transforms your speech into text instantly. Perfect for quick
-              note-taking, content creation, and capturing ideas on-the-go.
+              Cal AI auto-schedules your meetings, finds the best times, and keeps
+              your calendar in sync — so you can focus on what actually matters.
             </motion.p>
 
             <motion.div
