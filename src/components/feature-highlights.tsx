@@ -58,9 +58,9 @@ export function FeatureHighlights() {
                 delay={0.1}
               >
                 <div className="flex flex-col gap-4 max-w-sm text-center lg:text-left mx-auto">
-                  <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
+                  <h3 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter">
                     {item.title}
-                  </h2>
+                  </h3>
                   <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
                     {item.description}
                   </p>

@@ -29,9 +29,9 @@ function CarouselItem({ item }: { item: (typeof benefits)[0] }) {
         <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-muted to-transparent pointer-events-none" />
       </div>
       <div className="mt-4">
-        <h2 className="text-balance text-xl tracking-tight font-semibold leading-[1.25] text-left text-foreground/80">
+        <h3 className="text-balance text-xl tracking-tight font-semibold leading-[1.25] text-left text-foreground/80">
           {item.title}
-        </h2>
+        </h3>
       </div>
     </div>
   )

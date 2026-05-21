@@ -60,9 +60,9 @@ export function Bento() {
               className={`bg-muted p-4 sm:p-6 !pb-0 rounded-3xl grid grid-rows-1 ${item.span}`}
             >
               <div className="flex flex-col">
-                <h2 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">
+                <h3 className="text-xl sm:text-2xl font-bold mb-2 text-foreground">
                   {item.title}
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-foreground mb-4">
                   {item.description}
                 </p>

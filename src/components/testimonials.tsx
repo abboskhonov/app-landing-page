@@ -53,9 +53,9 @@ export function Testimonials() {
                       alt={t.name}
                     />
                     <div className="ml-3">
-                      <h3 className="text-lg font-medium text-foreground">
+                      <h4 className="text-lg font-medium text-foreground">
                         {t.name}
-                      </h3>
+                      </h4>
                       <p className="text-sm text-muted-foreground">{t.role}</p>
                     </div>
                   </div>
